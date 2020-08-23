@@ -1,4 +1,5 @@
 # gaute-web-components
+My own library of often used components
 
 ## Project setup
 ```
@@ -17,3 +18,4 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
