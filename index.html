@@ -4,10 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Components Display</title>
-  <script src="./components/createdByMe.js" type="module"></script>
-  <script src="./components/github.js" type="module"></script>
-  <script src="./components/twitter.js" type="module"></script>
-  <script src="./components/homepage.js" type="module"></script>
 </head>
 <body>
   <div class="list">
@@ -35,5 +31,9 @@
       padding: 10px 0;
     }
   </style>
+
+  <script type="module">
+    import { HomePage, Twitter, GitHub, CreatedByMe } from './index.js'
+  </script>
 </body>
 </html>
