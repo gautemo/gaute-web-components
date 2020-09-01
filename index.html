@@ -5,8 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Components Display</title>
   <script src="./components/createdByMe.js" type="module"></script>
+  <script src="./components/github.js" type="module"></script>
+  <script src="./components/twitter.js" type="module"></script>
+  <script src="./components/homepage.js" type="module"></script>
 </head>
 <body>
-  <created-by-me/>
+  <div class="list">
+    <created-by-me></created-by-me>
+    <github-link></github-link>
+    <twitter-link></twitter-link>
+    <homepage-link></homepage-link>
+  </div>
+
+  <style>
+    body{
+      margin: 0;
+    }
+
+    .list{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .list > :not(:first-child) {
+      border-top: 1px solid black;
+    }
+
+    .list > * {
+      padding: 10px 0;
+    }
+  </style>
 </body>
 </html>
