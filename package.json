@@ -1,0 +1,19 @@
+{
+  "name": "gaute-web-components",
+  "version": "1.0.0",
+  "description": "My own library of often used components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gautemo/gaute-web-components.git"
+  },
+  "author": "Gaute Meek Olsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gautemo/gaute-web-components/issues"
+  },
+  "homepage": "https://github.com/gautemo/gaute-web-components#readme"
+}
