@@ -1,6 +1,6 @@
 {
   "name": "gaute-web-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "My own library of often used components",
   "main": "index.js",
   "scripts": {

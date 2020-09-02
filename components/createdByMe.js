@@ -14,7 +14,7 @@ const html = `
 div{
   display: flex;
   align-items: center;
-  height: 26px;
+  min-height: 26px;
 }
 
 p{
